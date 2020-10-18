@@ -54,16 +54,13 @@ $ cd path/to/sort
 $ python sort.py
 ```
 
-To display the results you need to:
+To display the tracking results you need to:
 
 1. Download the [2D MOT 2015 benchmark dataset](https://motchallenge.net/data/2D_MOT_2015/#download)
-0. Create a symbolic link to the dataset
+2. Set --seq_path to the path of just downloaded MOT 2015 benchmark dataset, for me, it is D:\MachineLearning\DataSet\2DMOT2015 (on Windows).
+3. Run the demo with the ```--display``` flag and ```--seq_path``` flag
   ```
-  $ ln -s /path/to/MOT2015_challenge/data/2DMOT2015 mot_benchmark
-  ```
-0. Run the demo with the ```--display``` flag
-  ```
-  $ python sort.py --display
+  $ python sort.py --display --seq_path=D:\MachineLearning\DataSet\2DMOT2015
   ```
 
 
