@@ -2,8 +2,6 @@ SORT
 =====
 ## This repo is forked from https://github.com/abewley/sort. I made some minor changes to make this repo more easy to understand and use (for beginner like me ).
 
-------------
-
 A simple online and realtime tracking algorithm for 2D multiple object tracking in video sequences.
 See an example [video here](https://motchallenge.net/movies/ETH-Linthescher-SORT.mp4).
 
